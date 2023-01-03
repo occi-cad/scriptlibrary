@@ -1,0 +1,8 @@
+{
+    "description" : "A simple test text",
+    "params" : { 
+        "text" : {
+            "type": "text"
+        }
+    }
+}

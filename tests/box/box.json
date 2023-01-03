@@ -1,0 +1,19 @@
+{
+    "description" : "A simple test box",
+    "params" : { 
+        "size" : {
+            "type": "number",
+            "start" : 1,
+            "end" : 100,
+            "default" : 50,
+            "description" : "The size of the box",
+            "units" : "mm"
+        }
+    },
+    "param_presets": {
+        "small": { "size" : 5 },
+        "medium": { "size" : 50 },
+        "big": { "size" : 100 }
+    }
+
+}
