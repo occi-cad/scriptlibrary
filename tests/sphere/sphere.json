@@ -1,0 +1,19 @@
+{
+    "description" : "A simple sphere",
+    "params" : { 
+        "radius" : {
+            "type": "number",
+            "start" : 1,
+            "end" : 100,
+            "default" : 50,
+            "description" : "The radius of the sphere",
+            "units" : "mm"
+        }
+    },
+    "param_presets": {
+        "small": { "radius" : 5 },
+        "medium": { "radius" : 50 },
+        "big": { "radius" : 100 }
+    }
+
+}

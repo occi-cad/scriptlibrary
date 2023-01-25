@@ -4,5 +4,13 @@
         "text" : {
             "type": "text"
         }
+    },
+    "param_presets" : {
+        "cadquery" : {
+            "text" : "cadquery"
+        },
+        "archiyou" : {
+            "text" : "archiyou"
+        }
     }
 }
