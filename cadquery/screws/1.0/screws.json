@@ -1,0 +1,37 @@
+{
+    "description" : "Metric fasteners (screws and nuts)",
+    "params" : { 
+        "fastener_type" : {
+            "type": "text",
+            "default" : "screw",
+            "description" : "The type of fastener to generate",
+            "units" : "mm"
+        },
+        "head_type" : {
+            "type": "text",
+            "default" : "socket head",
+            "description" : "The head type of fastener (set, socket head, etc)",
+            "units" : "mm"
+        },
+        "fastener_size" : {
+            "type": "text",
+            "default" : "M3-0.5",
+            "description" : "The metric size of the fastener",
+            "units" : "mm"
+        },
+        "fastener_length" : {
+            "type": "number",
+            "start" : 6,
+            "end" : 24,
+            "default" : 10,
+            "description" : "The length of the fastener (screws only)",
+            "units" : "mm"
+        }
+    },
+    "param_presets": {
+        "M3x6 SHS": { "fastener_type" : "screw",  "head_type": "socket head", "fastener_size": "M3-0.5", "fastener_length": 6 },
+        "M3x8 SHS": { "fastener_type" : "screw",  "head_type": "socket head", "fastener_size": "M3-0.5", "fastener_length": 8 },
+        "M3x12 SHS": { "fastener_type" : "screw",  "head_type": "socket head", "fastener_size": "M3-0.5", "fastener_length": 12 }
+    }
+
+}
