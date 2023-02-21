@@ -1,0 +1,15 @@
+{
+    "description" : "A simple test box",
+    "params" : { 
+        "isbig" : {
+            "type": "boolean",
+            "default" : true,
+            "description" : "A simple switch parameter"
+        }
+    },
+    "param_presets": {
+        "small": { "isbig" : false },
+        "big": { "isbig" : true }
+    },
+    "license" : "CC0"
+}

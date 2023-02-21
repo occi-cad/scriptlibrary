@@ -3,8 +3,8 @@
     "params" : { 
         "radius" : {
             "type": "number",
-            "start" : 1,
-            "end" : 100,
+            "start" : 50,
+            "end" : 60,
             "default" : 50,
             "description" : "The radius of the sphere",
             "units" : "mm"

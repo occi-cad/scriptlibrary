@@ -1,0 +1,13 @@
+{
+    "description" : "A simple options test text",
+    "params" : { 
+        "textoptions" : {
+            "type": "options",
+            "options" : ["FreeCad", "CadQuery", "Blender", "OpenSCAD"],
+            "default" : "CadQuery"
+        }
+    },
+    "param_presets" : {
+      
+    }
+}
