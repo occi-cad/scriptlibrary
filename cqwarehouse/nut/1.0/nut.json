@@ -9,7 +9,7 @@
         },
         "TYPE" : {
             "type": "options",
-            "options" : ["iso4033", "iso4032", "iso4035"],
+            "options" : ["iso4032", "iso4033", "iso4035"],
             "default" : "iso4032",
             "description" : "The ISO type of the nut"
         },
