@@ -17,10 +17,13 @@
             "step" : 1.0,
             "description" : "The spacing between holes",
             "units" : "mm"
-        },
+        }
     },
     "param_presets": 
     {
-        
+        "default" : {
+            "length" : 294,
+            "hole_spacing" : 14,
+        }
     }
 }
