@@ -1,0 +1,46 @@
+{
+    "description" : "Nimble beam",
+    "params" : { 
+        "length" : {
+            "type": "number",
+            "start" : 200,
+            "end" : 400,
+            "default" : 294,
+            "description" : "The length of the beam",
+            "units" : "mm"
+        },
+        "hole_spacing" : {
+            "type": "number",
+            "start" : 10,
+            "end" : 20,
+            "default" : 14,
+            "step" : 1.0,
+            "description" : "The spacing between holes",
+            "units" : "mm"
+        },
+        "long_axis_hole_dia" : 
+        {
+            "type": "number",
+            "start" : 3,
+            "end" : 6,
+            "default" : 4.6,
+            "step" : 0.1,
+            "description" : "diameter of the holes on the long axis",
+            "units": "mm"
+        },
+        "mounting_holes_dia" : 
+        {
+            "type": "number",
+            "start" : 3,
+            "end" : 6,
+            "default" : 3.6,
+            "step" : 0.1,
+            "description" : "diameter of the mounting holes",
+            "units": "mm"
+        }
+    },
+    "param_presets": 
+    {
+        
+    }
+}
