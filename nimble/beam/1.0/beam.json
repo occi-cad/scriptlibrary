@@ -25,5 +25,7 @@
             "length" : 294,
             "hole_spacing" : 14
         }
-    }
+    },
+    "license" : "CC-BY-SA", 
+    "url" : "https://github.com/Wakoma/nimble"
 }
