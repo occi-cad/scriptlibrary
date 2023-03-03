@@ -15,7 +15,7 @@ vert = box(THICKNESS,WIDTH,HEIGHT)
 hor = box(DEPTH, WIDTH, THICKNESS)
         .move(DEPTH/2, 0, THICKNESS/2)
 
-bracket = vert.unioned(hor).color('blue');
+bracket = vert.union(hor).color('blue');
 vert.hide();
 hor.hide();
 bracket.fillet(10,'E[17]');

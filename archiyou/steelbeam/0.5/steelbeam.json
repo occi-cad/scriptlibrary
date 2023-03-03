@@ -1,0 +1,46 @@
+{
+    "description" : "A simple steel beam",
+    "params" : { 
+        "HEIGHT" : {
+            "type": "number",
+            "start" : 100,
+            "end" : 400,
+            "default" : 200,
+            "description" : "The height of the beam",
+            "units" : "mm"
+        },
+        "WIDTH" : {
+            "type": "number",
+            "start" : 100,
+            "end" : 400,
+            "default" : 100,
+            "description" : "The width of the beam",
+            "units" : "mm"
+        },
+        "LENGTH" : {
+            "type": "number",
+            "start" : 100,
+            "end" : 1000,
+            "default" : 200,
+            "description" : "The length of the beam",
+            "units" : "cm"
+        },
+        "FLANGE_THICKNESS" : {
+            "type": "number",
+            "start" : 5,
+            "end" : 30,
+            "default" : 10,
+            "description" : "The thickness of the flanges",
+            "units" : "mm"
+        },
+        "WEB_THICKNESS" : {
+            "type": "number",
+            "start" : 5,
+            "end" : 30,
+            "default" : 15,
+            "description" : "The thickness of the center web",
+            "units" : "mm"
+        }
+    },
+    "license" : "CC0" 
+}
